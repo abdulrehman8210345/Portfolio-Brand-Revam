@@ -9,9 +9,9 @@ const Resume = () => {
           <div className="resume-col-1">
             <h5>resume</h5>
             <h2>
-              All over my <br />
-              <span style={{ color: "#E65737" }}>Details find</span> <br />
-              here....
+              All Over My <br />
+              <span style={{ color: "#E65737" }}>Details Find</span> <br />
+              Here....
             </h2>
 
             <div className="drop-down">
@@ -56,38 +56,38 @@ const Resume = () => {
             <h3>Based in German</h3>
             <p>
               Fusce mollis sem eu ligula ornare, ut molestie eros volutpat.
-              Praesent condimentum, <br /> libero id tincidunt tincidunt, neque
-              ex ultrices purus, interdum gravida enim sapien ac <br /> urna.{" "}
+              Praesent condimentum, libero id tincidunt tincidunt, neque ex
+              ultrices purus, interdum gravida enim sapien ac urna.{" "}
             </p>
             <p>
               Fusce mollis sem eu ligula ornare, ut molestie eros volutpat.
-              Praesent condimentum, <br /> libero id tincidunt tincidunt, neque
+              Praesent condimentum,  libero id tincidunt tincidunt, neque
               ex ultrices purus,{" "}
             </p>
             <div className="resume-detail-box">
-            <div className="resume-details">
-              <div className="key">
-                <h6>Name:</h6>
-                <h6>Nationality:</h6>
-                <h6>Phone:</h6>
-                <h6>Email:</h6>
-                <h6>Experience:</h6>
-                <h6>Freelance:</h6>
-                <h6>Skype:</h6>
-                <h6>Language:</h6>
-              </div>
-              <div className="value">
-                <h6>John Wick</h6>
-                <h6>German</h6>
-                <h6>+000 111 2222</h6>
-                <h6>dummy@gmail.com</h6>
-                <h6>dummy@gmail.com</h6>
-                <h6>Available</h6>
-                <h6>Available</h6>
-                <h6>English</h6>
+              <div className="resume-details">
+                <div className="key">
+                  <h6>Name:</h6>
+                  <h6>Nationality:</h6>
+                  <h6>Phone:</h6>
+                  <h6>Email:</h6>
+                  <h6>Experience:</h6>
+                  <h6>Freelance:</h6>
+                  <h6>Skype:</h6>
+                  <h6>Language:</h6>
+                </div>
+                <div className="value">
+                  <h6>John Wick</h6>
+                  <h6>German</h6>
+                  <h6>+000 111 2222</h6>
+                  <h6>dummy@gmail.com</h6>
+                  <h6>dummy@gmail.com</h6>
+                  <h6>Available</h6>
+                  <h6>Available</h6>
+                  <h6>English</h6>
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

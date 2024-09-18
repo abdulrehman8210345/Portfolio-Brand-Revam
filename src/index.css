@@ -74,7 +74,7 @@
 }
 
 .scroller {
-  width: 21px;
+  /* width: 21px; */
 }
 
 .scroller img {
@@ -94,10 +94,13 @@
   width: 100%;
 }
 .intro {
-  width: 932px;
-  background-image: url("./assets/Person.png");
+  /* width: 932px; */
+  background-image: url(/src/assets/portfolio.png);
   text-align: center;
-  padding-top: 291px;
+  padding-top: 330px;
+  background-size: 70%;
+  background-position: 47% -23%;
+  background-repeat: no-repeat;
 }
 
 .intro img {
@@ -109,7 +112,7 @@
   font-size: 140px;
   font-weight: 400;
   text-transform: uppercase;
-  line-height: 168px;
+  line-height: 210px;
 }
 .intro-para {
   font-size: 19px;
@@ -141,7 +144,6 @@
 .spec-desc {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
 }
 .spec-logos {
   width: 100%;
@@ -154,9 +156,8 @@
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px 27px;
 }
-
 .hello-card {
   width: 30%;
   background-color: #1f1b1b;
@@ -188,10 +189,11 @@
 }
 
 .skill-card {
-  width: 30%;
+  width: 31%;
   height: 253px;
   background-color: #1f1b1b;
   border-radius: 10px;
+  padding: 30px;
 }
 
 .card-logo {
@@ -222,7 +224,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+
   height: 100%;
 }
 
@@ -340,10 +342,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 173px;
+  gap: 150px;
 }
 .resume-col-1 {
-  width: 48%;
+  width: 50%;
 }
 
 .resume-col-1 h5 {
@@ -352,13 +354,15 @@
   font-family: Zen dots, sans-serif;
   color: #e65737;
   text-transform: uppercase;
+  line-height: 30px;
 }
 .resume-col-1 h2 {
-  font-size: 70px;
+  font-size: 90px;
   font-weight: 400;
   font-family: Zen dots, sans-serif;
   color: #fff;
-  text-transform: uppercase;
+  /* line-height: 90.27px; */
+  /* text-transform: uppercase; */
 }
 
 .drop-down {
@@ -416,7 +420,7 @@
 }
 
 .resume-col-2 {
-  width: 48%;
+  width: 50%;
   padding-top: 42px;
 }
 
@@ -425,6 +429,7 @@
   font-weight: 400;
   font-family: Zen dots, sans-serif;
   color: #fff;
+  line-height: 46.12px;
 }
 .resume-col-2 p {
   font-size: 18px;
@@ -435,15 +440,17 @@
   line-height: 24px;
 }
 .resume-detail-box {
-  padding-top: 100px;
+  padding-top: 160px;
 }
 .resume-details {
-  width: 797px;
+  width: 100%;
   border-radius: 50px;
   background-color: #161313;
   background-image: url("./assets/resume-background.png");
   display: flex;
-  gap: 60px;
+  gap: 40px;
+  padding: 10px 0;
+  padding-left: 50px;
   /* justify-content: center; */
 }
 
@@ -454,7 +461,6 @@
   color: #fff;
   line-height: 20px;
   padding: 23px 0;
-  padding-left: 50px;
 }
 
 .value h6 {
@@ -464,7 +470,6 @@
   color: #fff;
   line-height: 20px;
   padding: 23px 0;
-  padding-left: 50px;
 }
 
 /* ResentWork section css */
@@ -502,11 +507,14 @@
   width: 655px;
   border-radius: 30px;
 }
+.mob-img-div img {
+  width: 100%;
+}
 
 .recent-cards {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 36px;
   padding-top: 50px;
   padding-bottom: 73px;
@@ -527,7 +535,7 @@
   justify-content: space-between;
   background-color: #e65737;
   padding: 20px 30px;
-  width: 316px;
+  gap: 20px;
   border-radius: 10px;
 }
 
@@ -805,12 +813,12 @@
   justify-content: space-between;
   background-color: #e65737;
   padding: 23px 11px;
-  width: 340px;
+  gap: 15px;
   border-radius: 10px;
 }
 
 .pricing-button p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
   color: #fff;
@@ -993,4 +1001,2031 @@
   width: 100%;
   height: 100%;
   padding: 5px;
+}
+
+@media screen and (max-width: 1600px) {
+  /* Navbar css */
+
+  .header-section {
+    padding: 28px 0;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+
+  .nav-logo {
+    width: 64px;
+  }
+
+  .nav-links {
+    gap: 58px;
+  }
+
+  .nav-links li {
+    font-size: 18px;
+  }
+
+  .nav-right {
+    width: 40px;
+  }
+
+  /* Hero css */
+
+  .scroller {
+    /* width: 21px; */
+  }
+
+  .social-links {
+    gap: 7px;
+  }
+
+  .intro {
+    /* width: 932px; */
+    padding-top: 310px;
+    /* background-size: 70%; */
+    /* background-position: 47% -23%; */
+  }
+
+  .intro-text {
+    font-size: 135px;
+    line-height: 208px;
+    /* padding: 61px 0; */
+  }
+  .intro-para {
+    font-size: 18px;
+    padding-top: 19px;
+    padding-bottom: 172px;
+  }
+
+  /* Specialities section css */
+
+  .specialities-section {
+    padding-top: 78px;
+    padding-bottom: 196px;
+  }
+
+  .spec-title {
+    font-size: 85px;
+  }
+
+  .skill-logos {
+    gap: 38px 25px;
+  }
+  .hello-card {
+    height: 520px;
+  }
+
+  .hello-card h5 {
+    font-size: 28px;
+  }
+
+  .hello-card h6 {
+    font-size: 24px;
+    /* padding-top: 10px; */
+  }
+
+  /* .hello-text {
+    padding-left: 30px;
+    padding-bottom: 50px;
+  } */
+
+  .skill-card {
+    height: 240px;
+    padding: 24px;
+  }
+
+  .card-logo {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+  .card-name h5 {
+    font-size: 27px;
+  }
+  /* Detail section css */
+
+  .detail-section {
+    padding: 98px 0;
+  }
+
+  .main-details {
+    gap: 130px;
+  }
+  .det-image {
+    width: 650px;
+    height: 680px;
+  }
+  .person-img {
+    width: 650px;
+    height: 765px;
+    margin: -80px 0 0 -40px;
+  }
+  .twelve {
+    width: 190px;
+    bottom: -7px;
+    right: -60px;
+  }
+
+  .det-desc h5 {
+    font-size: 24px;
+  }
+
+  .det-desc h2 {
+    font-size: 66px;
+  }
+  .det-desc p {
+    font-size: 17px;
+    padding-top: 18px;
+  }
+
+  .experience {
+    padding-top: 48px;
+  }
+
+  .ten {
+    width: 74px;
+  }
+  .hundred {
+    width: 155px;
+  }
+  .nintynine {
+    width: 118px;
+  }
+
+  .exp-col p {
+    padding-top: 3px;
+  }
+
+  .exp-img-div {
+    width: 290px;
+    padding-top: 48px;
+  }
+  /* Resume section css  */
+
+  .resume-section {
+    padding: 152px 0;
+  }
+
+  .main-resume {
+    gap: 110px;
+  }
+
+  .resume-col-1 h5 {
+    font-size: 23px;
+  }
+  .resume-col-1 h2 {
+    font-size: 80px;
+  }
+
+  .drop-down {
+    gap: 14px;
+    padding-top: 55px;
+  }
+
+  .drop-down1 {
+    padding: 30px 36px;
+  }
+
+  .drop-down h2 {
+    font-size: 23px;
+  }
+
+  .resume-col-2 {
+    /* width: 48%; */
+    padding-top: 50px;
+  }
+
+  .resume-col-2 h3 {
+    font-size: 38px;
+  }
+  .resume-col-2 p {
+    font-size: 16px;
+    padding-top: 20px;
+    /* text-wrap: nowrap; */
+  }
+  .resume-detail-box {
+    padding-top: 115px;
+  }
+  .resume-details {
+    gap: 40px;
+    padding: 0px 0;
+    padding-left: 48px;
+  }
+
+  .key h6 {
+    font-size: 24px;
+    padding: 21px 0;
+  }
+
+  .value h6 {
+    font-size: 24px;
+    padding: 21px 0;
+  }
+
+  /* ResentWork section css */
+
+  .recent-work-section {
+    padding: 66px 0;
+  }
+  .recent-heading h6 {
+    font-size: 24px;
+  }
+
+  .recent-heading h2 {
+    font-size: 85px;
+  }
+
+  .mob-img-div {
+    width: 605px;
+  }
+
+  .recent-cards {
+    gap: 25px;
+    padding-top: 48px;
+    padding-bottom: 70px;
+  }
+
+  .recent-card h3 {
+    font-size: 36px;
+    padding-top: 35px;
+  }
+
+  .recent-button {
+    padding: 18px 28px;
+    gap: 18px;
+  }
+
+  .recent-button p {
+    font-size: 23px;
+  }
+
+  .white-arrow {
+    width: 24px;
+  }
+  /* Testimonial section css */
+
+  .test-section {
+    padding: 90px 0;
+  }
+
+  .main-test {
+    gap: 30px;
+  }
+  /* .test1 {
+  width: 33%;
+}
+.test2 {
+  width: 33%;
+}
+.test3 {
+  width: 33%;
+} */
+
+  .test1 h6 {
+    font-size: 23px;
+  }
+
+  .test1 h2 {
+    font-size: 85px;
+  }
+  .test-arrows {
+    padding-top: 36px;
+    gap: 16px;
+  }
+  .test-arrow {
+    width: 62px;
+    padding: 9px;
+  }
+
+  .test-arrow2 {
+    width: 62px;
+    padding: 9px;
+  }
+  .inverted-comma {
+    width: 55px;
+  }
+
+  .test2-content {
+    padding: 36px 0;
+    padding-left: 36px;
+  }
+
+  .test2-content p {
+    font-size: 16px;
+    padding-top: 23px;
+  }
+
+  .profile {
+    gap: 9px;
+    padding-top: 15px;
+  }
+
+  .profile p {
+    font-size: 18px;
+    padding: 4px;
+  }
+
+  .profilePic {
+    width: 26px;
+  }
+  /* blog section css */
+
+  .blog-section {
+    padding: 65px 0;
+  }
+
+  .blog-heading h6 {
+    font-size: 24px;
+  }
+
+  .blog-heading h2 {
+    font-size: 85px;
+  }
+
+  .all-blogs {
+    gap: 35px;
+  }
+  .blog1 {
+    width: 24%;
+    padding-top: 80px;
+  }
+
+  .blog2 {
+    width: 24%;
+    padding-top: 145px;
+  }
+  .blog-img {
+    width: 350px;
+  }
+
+  .blog-ul {
+    gap: 10px;
+  }
+
+  .dot-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .blog-ul h6 {
+    font-size: 17px;
+  }
+  .blog-det {
+    padding: 0 9px;
+    padding-top: 10px;
+  }
+  .blog-det p {
+    font-size: 12px;
+  }
+
+  .blog-det2 {
+    padding: 0 9px;
+    padding-top: 20px;
+  }
+
+  .blog-det2 h5 {
+    font-size: 19px;
+  }
+  .blog-det-arrow {
+    width: 36px;
+  }
+  /* Pricing section css  */
+
+  .pricing-section {
+    padding: 140px 0;
+  }
+
+  .pricing-title p {
+    font-size: 24px;
+  }
+  .pricing-title h3 {
+    font-size: 85px;
+  }
+
+  .pricing-button {
+    padding: 21px 10px;
+    gap: 15px;
+    border-radius: 10px;
+  }
+
+  .pricing-button p {
+    font-size: 19px;
+  }
+  .pricing-cards {
+    padding-top: 55px;
+  }
+  .pricing-card {
+    width: 32%;
+    height: 220px;
+    border-radius: 20px;
+    padding: 18px;
+  }
+
+  .card-header h6 {
+    font-size: 24px;
+  }
+  .card-header p {
+    font-size: 24px;
+  }
+  .pricing-arrow {
+    width: 38px;
+  }
+  .card-footer h5 {
+    font-size: 28px;
+  }
+  .card-footer p {
+    font-size: 19px;
+  }
+  /* footer section css  */
+
+  .footer-header {
+    padding-bottom: 65px;
+    padding-top: 75px;
+    gap: 10px;
+  }
+
+  .footer-content {
+    width: 41%;
+  }
+  .footer-card {
+    width: 26%;
+    padding: 26px;
+  }
+  .footer-card p {
+    font-size: 19px;
+  }
+  .card-footer-lower h5 {
+    font-size: 22px;
+  }
+  .footer-content h1 {
+    font-size: 85px;
+  }
+  .footer-location {
+    padding-top: 35px;
+  }
+
+  .footer-logos {
+    padding-left: 8px;
+    gap: 10px;
+  }
+
+  .footer-social-logo {
+    width: 25px;
+  }
+  .footer-location p {
+    font-size: 22px;
+    padding-right: 13px;
+  }
+
+  .footer-footer {
+    padding: 28px 0;
+  }
+
+  .footer-footer h5 {
+    font-size: 22px;
+  }
+  .up-arrow-function {
+    gap: 22px;
+  }
+
+  .up-arrow-img {
+    width: 32px;
+    height: 32px;
+    /* padding: 2px; */
+  }
+  .up-arrow-img img {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /* Navbar css */
+
+  .header-section {
+    padding: 26px 0;
+  }
+
+  .container {
+    max-width: 1170px;
+  }
+
+  .nav-logo {
+    width: 60px;
+  }
+
+  .nav-links {
+    gap: 54px;
+  }
+
+  .nav-links li {
+    font-size: 17px;
+  }
+
+  .nav-right {
+    width: 35px;
+  }
+
+  /* Hero css */
+
+  .scroller {
+    /* width: 21px; */
+  }
+
+  .social-links {
+    gap: 6px;
+  }
+
+  /* Specialities section css */
+
+  .specialities-section {
+    padding-top: 74px;
+    padding-bottom: 186px;
+  }
+
+  .spec-title {
+    font-size: 75px;
+  }
+
+  .skill-logos {
+    gap: 34px 18px;
+  }
+  .hello-card {
+    height: 457px;
+  }
+
+  .hello-card h5 {
+    font-size: 26px;
+  }
+
+  .hello-card h6 {
+    font-size: 22px;
+    /* padding-top: 10px; */
+  }
+  .intro {
+    /* width: 932px; */
+    padding-top: 290px;
+    /* background-size: 70%; */
+    /* background-position: 47% -23%; */
+  }
+
+  .intro-text {
+    font-size: 125px;
+    line-height: 190px;
+    /* padding: 61px 0; */
+  }
+  .intro-para {
+    font-size: 15px;
+    padding-top: 18px;
+    padding-bottom: 162px;
+  }
+
+  /* .hello-text {
+    padding-left: 30px;
+    padding-bottom: 50px;
+  } */
+
+  .skill-card {
+    height: 210px;
+    padding: 21px;
+  }
+
+  .card-logo {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+  }
+  .card-name h5 {
+    font-size: 21px;
+  }
+  /* Detail section css */
+
+  .detail-section {
+    padding: 94px 0;
+  }
+
+  .main-details {
+    gap: 110px;
+  }
+  .det-image {
+    width: 600px;
+    height: 630px;
+  }
+  .person-img {
+    width: 600px;
+    height: 715px;
+    margin: -80px 0 0 -40px;
+  }
+  .twelve {
+    width: 160px;
+    bottom: -7px;
+    right: -60px;
+  }
+
+  .det-desc h5 {
+    font-size: 22px;
+  }
+
+  .det-desc h2 {
+    font-size: 50px;
+  }
+  .det-desc p {
+    font-size: 15px;
+    padding-top: 18px;
+    text-wrap: nowrap;
+  }
+
+  .experience {
+    padding-top: 44px;
+  }
+
+  .ten {
+    width: 70px;
+  }
+  .hundred {
+    width: 150px;
+  }
+  .nintynine {
+    width: 110px;
+  }
+
+  .exp-col p {
+    padding-top: 3px;
+  }
+
+  .exp-img-div {
+    width: 270px;
+    padding-top: 44px;
+  }
+  /* Resume section css  */
+
+  .resume-section {
+    padding: 142px 0;
+  }
+
+  .main-resume {
+    gap: 70px;
+  }
+
+  .resume-col-1 h5 {
+    font-size: 21px;
+  }
+  .resume-col-1 h2 {
+    font-size: 70px;
+  }
+
+  .drop-down {
+    gap: 14px;
+    padding-top: 50px;
+  }
+
+  .drop-down1 {
+    padding: 28px 32px;
+  }
+
+  .drop-down h2 {
+    font-size: 21px;
+  }
+
+  .resume-col-2 {
+    padding-top: 45px;
+  }
+
+  .resume-col-2 h3 {
+    font-size: 34px;
+  }
+  .resume-col-2 p {
+    font-size: 15px;
+    padding-top: 18px;
+  }
+  .resume-detail-box {
+    padding-top: 75px;
+  }
+  .resume-details {
+    gap: 35px;
+    padding: 0px 0;
+    padding-left: 48px;
+  }
+
+  .key h6 {
+    font-size: 22px;
+    padding: 20px 0;
+  }
+
+  .value h6 {
+    font-size: 22px;
+    padding: 20px 0;
+  }
+
+  /* ResentWork section css */
+
+  .recent-work-section {
+    padding: 60px 0;
+  }
+  .recent-heading h6 {
+    font-size: 22px;
+  }
+
+  .recent-heading h2 {
+    font-size: 75px;
+  }
+
+  .mob-img-div {
+    width: 555px;
+  }
+
+  .recent-cards {
+    gap: 20px;
+    padding-top: 44px;
+    padding-bottom: 65px;
+  }
+
+  .recent-card h3 {
+    font-size: 32px;
+    padding-top: 30px;
+  }
+
+  .recent-button {
+    padding: 16px 26px;
+    gap: 16px;
+  }
+
+  .recent-button p {
+    font-size: 22px;
+  }
+
+  .white-arrow {
+    width: 22px;
+  }
+  /* Testimonial section css */
+
+  .test-section {
+    padding: 85px 0;
+  }
+
+  .main-test {
+    gap: 10px;
+  }
+  /* .test1 {
+  width: 33%;
+}
+.test2 {
+  width: 33%;
+}
+.test3 {
+  width: 33%;
+} */
+
+  .test1 h6 {
+    font-size: 21px;
+  }
+
+  .test1 h2 {
+    font-size: 70px;
+  }
+  .test-arrows {
+    padding-top: 32px;
+    gap: 12px;
+  }
+  .test-arrow {
+    width: 56px;
+    padding: 8px;
+  }
+
+  .test-arrow2 {
+    width: 56px;
+    padding: 8px;
+  }
+  .inverted-comma {
+    width: 50px;
+  }
+
+  .test2-content {
+    padding: 32px 0;
+    padding-left: 32px;
+  }
+
+  .test2-content p {
+    font-size: 14px;
+    padding-top: 21px;
+    text-wrap: nowrap;
+  }
+
+  .profile {
+    gap: 8px;
+    padding-top: 13px;
+  }
+
+  .profile p {
+    font-size: 17px;
+    padding: 4px;
+  }
+
+  .profilePic {
+    width: 24px;
+  }
+  /* blog section css */
+
+  .blog-section {
+    padding: 60px 0;
+  }
+
+  .blog-heading h6 {
+    font-size: 22px;
+  }
+
+  .blog-heading h2 {
+    font-size: 75px;
+  }
+
+  .all-blogs {
+    gap: 40px;
+  }
+  .blog1 {
+    width: 24%;
+    padding-top: 75px;
+  }
+
+  .blog2 {
+    width: 24%;
+    padding-top: 135px;
+  }
+  .blog-img {
+    width: 300px;
+  }
+
+  .blog-ul {
+    gap: 10px;
+  }
+
+  .dot-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .blog-ul h6 {
+    font-size: 16px;
+  }
+  .blog-det {
+    padding: 0 8px;
+    padding-top: 9px;
+  }
+  .blog-det p {
+    font-size: 12px;
+  }
+
+  .blog-det2 {
+    padding: 0 8px;
+    padding-top: 18px;
+  }
+
+  .blog-det2 h5 {
+    font-size: 17px;
+    text-wrap: nowrap;
+  }
+  .blog-det-arrow {
+    width: 32px;
+  }
+  /* Pricing section css  */
+
+  .pricing-section {
+    padding: 130px 0;
+  }
+
+  .pricing-title p {
+    font-size: 22px;
+  }
+  .pricing-title h3 {
+    font-size: 70px;
+  }
+
+  .pricing-button {
+    padding: 19px 9px;
+    gap: 13px;
+    border-radius: 10px;
+  }
+
+  .pricing-button p {
+    font-size: 17px;
+  }
+  .pricing-cards {
+    padding-top: 50px;
+  }
+  .pricing-card {
+    width: 32%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+  .card-header h6 {
+    font-size: 22px;
+  }
+  .card-header p {
+    font-size: 22px;
+  }
+  .pricing-arrow {
+    width: 32px;
+  }
+  .card-footer h5 {
+    font-size: 24px;
+  }
+  .card-footer p {
+    font-size: 17px;
+  }
+  /* footer section css  */
+
+  .footer-header {
+    padding-bottom: 55px;
+    padding-top: 65px;
+    gap: 8px;
+  }
+
+  .footer-content {
+    width: 41%;
+  }
+  .footer-card {
+    width: 26%;
+    padding: 22px;
+  }
+  .footer-card p {
+    font-size: 17px;
+  }
+  .card-footer-lower h5 {
+    font-size: 20px;
+  }
+  .footer-content h1 {
+    font-size: 70px;
+  }
+  .footer-location {
+    padding-top: 25px;
+  }
+
+  .footer-logos {
+    padding-left: 7px;
+    gap: 9px;
+  }
+
+  .footer-social-logo {
+    width: 22px;
+  }
+  .footer-location p {
+    font-size: 20px;
+    padding-right: 12px;
+  }
+
+  .footer-footer {
+    padding: 26px 0;
+  }
+
+  .footer-footer h5 {
+    font-size: 20px;
+  }
+  .up-arrow-function {
+    gap: 20px;
+  }
+
+  .up-arrow-img {
+    width: 28px;
+    height: 28px;
+    /* padding: 2px; */
+  }
+  .up-arrow-img img {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  /* Navbar css */
+
+  .header-section {
+    padding: 24px 0;
+  }
+
+  .container {
+    max-width: 1170px;
+  }
+
+  .nav-logo {
+    width: 56px;
+  }
+
+  .nav-links {
+    gap: 52px;
+  }
+
+  .nav-links li {
+    font-size: 16px;
+  }
+
+  .nav-right {
+    width: 32px;
+  }
+
+  /* Hero css */
+
+  .scroller {
+    /* width: 21px; */
+  }
+
+  .social-links {
+    gap: 5px;
+  }
+
+  /* Specialities section css */
+
+  .specialities-section {
+    padding-top: 72px;
+    padding-bottom: 180px;
+  }
+
+  .spec-title {
+    font-size: 70px;
+  }
+
+  .skill-logos {
+    gap: 32px 17px;
+  }
+  .hello-card {
+    height: 455px;
+  }
+
+  .hello-card h5 {
+    font-size: 23px;
+  }
+
+  .hello-card h6 {
+    font-size: 20px;
+    /* padding-top: 10px; */
+  }
+  .intro {
+    /* width: 932px; */
+    padding-top: 270px;
+    /* background-size: 70%; */
+    /* background-position: 47% -23%; */
+  }
+
+  .intro-text {
+    font-size: 120px;
+    /* padding: 61px 0; */
+  }
+  .intro-para {
+    font-size: 15px;
+    padding-top: 17px;
+    padding-bottom: 160px;
+  }
+
+  /* .hello-text {
+    padding-left: 30px;
+    padding-bottom: 50px;
+  } */
+
+  .skill-card {
+    height: 210px;
+    padding: 20px;
+  }
+
+  .card-logo {
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+  }
+  .card-name h5 {
+    font-size: 20px;
+  }
+  /* Detail section css */
+
+  .detail-section {
+    padding: 90px 0;
+  }
+
+  .main-details {
+    gap: 100px;
+  }
+  .det-image {
+    width: 580px;
+    height: 600px;
+  }
+  .person-img {
+    width: 580px;
+    height: 685px;
+    margin: -80px 0 0 -40px;
+  }
+  .twelve {
+    width: 140px;
+    bottom: -7px;
+    right: -60px;
+  }
+
+  .det-desc h5 {
+    font-size: 21px;
+  }
+
+  .det-desc h2 {
+    font-size: 48px;
+  }
+  .det-desc p {
+    font-size: 15px;
+    padding-top: 17px;
+    text-wrap: nowrap;
+  }
+
+  .experience {
+    padding-top: 40px;
+  }
+
+  .ten {
+    width: 60px;
+  }
+  .hundred {
+    width: 140px;
+  }
+  .nintynine {
+    width: 100px;
+  }
+
+  .exp-col p {
+    padding-top: 3px;
+  }
+
+  .exp-img-div {
+    width: 260px;
+    padding-top: 40px;
+  }
+  /* Resume section css  */
+
+  .resume-section {
+    padding: 136px 0;
+  }
+
+  .main-resume {
+    gap: 70px;
+  }
+
+  .resume-col-1 h5 {
+    font-size: 20px;
+  }
+  .resume-col-1 h2 {
+    font-size: 70px;
+  }
+
+  .drop-down {
+    gap: 17px;
+    padding-top: 45px;
+  }
+
+  .drop-down1 {
+    padding: 26px 30px;
+  }
+
+  .drop-down h2 {
+    font-size: 20px;
+  }
+
+  .resume-col-2 {
+    padding-top: 42px;
+  }
+
+  .resume-col-2 h3 {
+    font-size: 32px;
+  }
+  .resume-col-2 p {
+    font-size: 14px;
+    padding-top: 18px;
+  }
+  .resume-detail-box {
+    padding-top: 70px;
+  }
+  .resume-details {
+    gap: 40px;
+    padding: 0px 0;
+    padding-left: 48px;
+  }
+
+  .key h6 {
+    font-size: 20px;
+    padding: 19px 0;
+  }
+
+  .value h6 {
+    font-size: 20px;
+    padding: 19px 0;
+  }
+
+  /* ResentWork section css */
+
+  .recent-work-section {
+    padding: 55px 0;
+  }
+  .recent-heading h6 {
+    font-size: 20px;
+  }
+
+  .recent-heading h2 {
+    font-size: 70px;
+  }
+
+  .mob-img-div {
+    width: 530px;
+  }
+
+  .recent-cards {
+    gap: 20px;
+    padding-top: 42px;
+    padding-bottom: 60px;
+  }
+
+  .recent-card h3 {
+    font-size: 30px;
+    padding-top: 28px;
+  }
+
+  .recent-button {
+    padding: 15px 25px;
+    gap: 15px;
+  }
+
+  .recent-button p {
+    font-size: 21px;
+  }
+
+  .white-arrow {
+    width: 20px;
+  }
+  /* Testimonial section css */
+
+  .test-section {
+    padding: 80px 0;
+  }
+
+  .main-test {
+    gap: 8px;
+  }
+  /* .test1 {
+  width: 33%;
+}
+.test2 {
+  width: 33%;
+}
+.test3 {
+  width: 33%;
+} */
+
+  .test1 h6 {
+    font-size: 20px;
+  }
+
+  .test1 h2 {
+    font-size: 65px;
+  }
+  .test-arrows {
+    padding-top: 30px;
+    gap: 11px;
+  }
+  .test-arrow {
+    width: 50px;
+    padding: 7px;
+  }
+
+  .test-arrow2 {
+    width: 50px;
+    padding: 7px;
+  }
+  .inverted-comma {
+    width: 45px;
+  }
+
+  .test2-content {
+    padding: 30px 0;
+    padding-left: 30px;
+  }
+
+  .test2-content p {
+    font-size: 14px;
+    padding-top: 20px;
+    text-wrap: nowrap;
+  }
+
+  .profile {
+    gap: 8px;
+    padding-top: 13px;
+  }
+
+  .profile p {
+    font-size: 16px;
+    padding: 4px;
+  }
+
+  .profilePic {
+    width: 24px;
+  }
+  /* blog section css */
+
+  .blog-section {
+    padding: 55px 0;
+  }
+
+  .blog-heading h6 {
+    font-size: 21px;
+  }
+
+  .blog-heading h2 {
+    font-size: 70px;
+  }
+
+  .all-blogs {
+    gap: 35px;
+  }
+  .blog1 {
+    width: 24%;
+    padding-top: 70px;
+  }
+
+  .blog2 {
+    width: 24%;
+    padding-top: 130px;
+  }
+  .blog-img {
+    width: 280px;
+  }
+
+  .blog-ul {
+    gap: 8px;
+  }
+
+  .dot-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .blog-ul h6 {
+    font-size: 15px;
+  }
+  .blog-det {
+    padding: 0 7px;
+    padding-top: 8px;
+  }
+  .blog-det p {
+    font-size: 12px;
+  }
+
+  .blog-det2 {
+    padding: 0 8px;
+    padding-top: 16px;
+  }
+
+  .blog-det2 h5 {
+    font-size: 16px;
+    text-wrap: nowrap;
+  }
+  .blog-det-arrow {
+    width: 30px;
+  }
+  /* Pricing section css  */
+
+  .pricing-section {
+    padding: 120px 0;
+  }
+
+  .pricing-title p {
+    font-size: 20px;
+  }
+  .pricing-title h3 {
+    font-size: 65px;
+  }
+
+  .pricing-button {
+    padding: 17px 8px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+
+  .pricing-button p {
+    font-size: 16px;
+  }
+  .pricing-cards {
+    padding-top: 46px;
+  }
+  .pricing-card {
+    width: 32%;
+    height: 190px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .card-header h6 {
+    font-size: 21px;
+  }
+  .card-header p {
+    font-size: 21px;
+  }
+  .pricing-arrow {
+    width: 30px;
+  }
+  .card-footer h5 {
+    font-size: 22px;
+  }
+  .card-footer p {
+    font-size: 16px;
+  }
+  /* footer section css  */
+
+  .footer-header {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    gap: 8px;
+  }
+
+  .footer-content {
+    width: 41%;
+  }
+  .footer-card {
+    width: 26%;
+    padding: 21px;
+  }
+  .footer-card p {
+    font-size: 16px;
+  }
+  .card-footer-lower h5 {
+    font-size: 18px;
+  }
+  .footer-content h1 {
+    font-size: 65px;
+  }
+  .footer-location {
+    padding-top: 23px;
+  }
+
+  .footer-logos {
+    padding-left: 6px;
+    gap: 9px;
+  }
+
+  .footer-social-logo {
+    width: 22px;
+  }
+  .footer-location p {
+    font-size: 19px;
+    padding-right: 11px;
+  }
+
+  .footer-footer {
+    padding: 24px 0;
+  }
+
+  .footer-footer h5 {
+    font-size: 19px;
+  }
+  .up-arrow-function {
+    gap: 19px;
+  }
+
+  .up-arrow-img {
+    width: 26px;
+    height: 26px;
+    /* padding: 2px; */
+  }
+  .up-arrow-img img {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Navbar css */
+
+  .header-section {
+    padding: 24px 0;
+  }
+  .navbar {
+    padding: 0 40px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-logo {
+    width: 50px;
+  }
+
+  .nav-links {
+    gap: 50px;
+  }
+
+  .nav-links li {
+    font-size: 16px;
+  }
+
+  .nav-right {
+    width: 30px;
+  }
+
+  /* Hero css */
+  .main-hero {
+    padding: 0 40px;
+  }
+  .scroller {
+    /* width: 21px; */
+  }
+
+  .social-links {
+    gap: 5px;
+  }
+
+  /* Specialities section css */
+
+  .specialities-section {
+    padding-top: 72px;
+    padding-bottom: 180px;
+  }
+  .main-specialities {
+    padding: 0 40px;
+  }
+
+  .spec-title {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+  }
+  .spec-logos {
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  .spec-desc {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .skill-logos {
+    gap: 32px 33px;
+    width: 100%;
+  }
+  .hello-card {
+    height: 455px;
+    width: 100%;
+  }
+
+  .hello-card h5 {
+    font-size: 23px;
+  }
+
+  .hello-card h6 {
+    font-size: 20px;
+    /* padding-top: 10px; */
+  }
+  .intro {
+    /* width: 932px; */
+    padding-top: 270px;
+    /* background-size: 70%; */
+    background-position: 47% 620%;
+  }
+
+  .intro-text {
+    font-size: 90px;
+    line-height: 140px;
+    /* padding: 61px 0; */
+  }
+  .intro-para {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 160px;
+  }
+
+  /* .hello-text {
+    padding-left: 30px;
+    padding-bottom: 50px;
+  } */
+
+  .skill-card {
+    height: 210px;
+    padding: 20px;
+  }
+
+  .card-logo {
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+  }
+  .card-name h5 {
+    font-size: 20px;
+  }
+  /* Detail section css */
+
+  .detail-section {
+    padding: 90px 0;
+  }
+
+  .main-details {
+    gap: 70px;
+    padding: 0 40px;
+  }
+  .det-image {
+    width: 460px;
+    height: 510px;
+  }
+  .person-img {
+    width: 460px;
+    height: 610px;
+    margin: -80px 0 0 -40px;
+  }
+  .twelve {
+    width: 110px;
+    bottom: -7px;
+    right: -40px;
+  }
+
+  .det-desc h5 {
+    font-size: 20px;
+  }
+
+  .det-desc h2 {
+    font-size: 44px;
+  }
+  .det-desc p {
+    font-size: 13px;
+    padding-top: 17px;
+    text-wrap: nowrap;
+  }
+
+  .experience {
+    padding-top: 40px;
+  }
+
+  .ten {
+    width: 55px;
+  }
+  .hundred {
+    width: 130px;
+  }
+  .nintynine {
+    width: 90px;
+  }
+
+  .exp-col p {
+    padding-top: 3px;
+  }
+
+  .exp-img-div {
+    width: 220px;
+    padding-top: 40px;
+  }
+  /* Resume section css  */
+
+  .resume-section {
+    padding: 136px 0;
+  }
+
+  .main-resume {
+    gap: 70px;
+    padding: 0 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume-col-1 {
+    width: 100%;
+  }
+  .resume-col-1 h5 {
+    font-size: 20px;
+  }
+  .resume-col-1 h2 {
+    font-size: 70px;
+  }
+
+  .drop-down {
+    gap: 17px;
+    padding-top: 45px;
+  }
+
+  .drop-down1 {
+    padding: 26px 30px;
+  }
+
+  .drop-down h2 {
+    font-size: 20px;
+  }
+
+  .resume-col-2 {
+    padding-top: 42px;
+    width: 100%;
+  }
+
+  .resume-col-2 h3 {
+    font-size: 32px;
+  }
+  .resume-col-2 p {
+    font-size: 14px;
+    width: 100%;
+    padding-top: 18px;
+  }
+  .resume-detail-box {
+    padding-top: 70px;
+  }
+  .resume-details {
+    gap: 70px;
+    padding: 0px 0;
+    padding-left: 48px;
+  }
+
+  .key h6 {
+    font-size: 20px;
+    padding: 19px 0;
+  }
+
+  .value h6 {
+    font-size: 20px;
+    padding: 19px 0;
+  }
+
+  /* ResentWork section css */
+
+  .main-recent {
+    padding: 0 40px;
+  }
+  .recent-work-section {
+    padding: 55px 0;
+  }
+  .recent-heading h6 {
+    font-size: 20px;
+  }
+
+  .recent-heading h2 {
+    font-size: 70px;
+  }
+
+  .mob-img-div {
+    width: 420px;
+  }
+
+  .recent-cards {
+    gap: 20px;
+    padding-top: 42px;
+    padding-bottom: 60px;
+  }
+
+  .recent-card h3 {
+    font-size: 26px;
+    padding-top: 28px;
+  }
+
+  .recent-button {
+    padding: 15px 25px;
+    gap: 15px;
+  }
+
+  .recent-button p {
+    font-size: 19px;
+  }
+
+  .white-arrow {
+    width: 20px;
+  }
+  /* Testimonial section css */
+
+  .test-section {
+    padding: 80px 0;
+  }
+
+  .main-test {
+    gap: 8px;
+    padding: 0 40px;
+  }
+  .test1 {
+    width: 33%;
+  }
+  .test2 {
+    width: 33%;
+  }
+  .test3 {
+    width: 33%;
+  }
+
+  .test1 h6 {
+    font-size: 18px;
+  }
+
+  .test1 h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .test-arrows {
+    padding-top: 30px;
+    gap: 11px;
+  }
+  .test-arrow {
+    width: 45px;
+    padding: 7px;
+  }
+
+  .test-arrow2 {
+    width: 45px;
+    padding: 7px;
+  }
+  .inverted-comma {
+    width: 40px;
+  }
+
+  .test2-content {
+    padding: 25px 0;
+    padding-left: 25px;
+  }
+
+  .test2-content p {
+    font-size: 12px;
+    padding-top: 20px;
+    text-wrap: nowrap;
+  }
+
+  .profile {
+    gap: 8px;
+    padding-top: 13px;
+  }
+
+  .profile p {
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  .profilePic {
+    width: 24px;
+  }
+  /* blog section css */
+
+  .blog-section {
+    padding: 55px 0;
+  }
+  .main-blogs {
+    padding: 0 40px;
+  }
+
+  .blog-heading h6 {
+    font-size: 20px;
+  }
+
+  .blog-heading h2 {
+    font-size: 65px;
+  }
+
+  .all-blogs {
+    gap: 33px;
+    justify-content: center;
+  }
+  .blog1 {
+    width: 20%;
+    padding-top: 70px;
+  }
+
+  .blog2 {
+    width: 20%;
+    padding-top: 130px;
+  }
+  .blog-img {
+    width: 200px;
+  }
+
+  .blog-ul {
+    gap: 8px;
+  }
+
+  .dot-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .blog-ul h6 {
+    font-size: 12px;
+  }
+  .blog-det {
+    padding: 0 7px;
+    padding-top: 8px;
+  }
+  .blog-det p {
+    font-size: 10px;
+  }
+
+  .blog-det2 {
+    padding: 0 8px;
+    padding-top: 16px;
+  }
+
+  .blog-det2 h5 {
+    font-size: 11px;
+    text-wrap: nowrap;
+  }
+  .blog-det-arrow {
+    width: 30px;
+  }
+  /* Pricing section css  */
+
+  .pricing-section {
+    padding: 120px 0;
+  }
+  .main-pricing {
+    padding: 0 40px;
+  }
+  .pricing-title p {
+    font-size: 18px;
+  }
+  .pricing-title h3 {
+    font-size: 60px;
+  }
+
+  .pricing-button {
+    padding: 17px 8px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+
+  .pricing-button p {
+    font-size: 15px;
+  }
+  .pricing-cards {
+    padding-top: 46px;
+  }
+  .pricing-card {
+    width: 32%;
+    height: 190px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .card-header h6 {
+    font-size: 20px;
+  }
+  .card-header p {
+    font-size: 20px;
+  }
+  .pricing-arrow {
+    width: 28px;
+  }
+  .card-footer h5 {
+    font-size: 20px;
+  }
+  .card-footer p {
+    font-size: 14px;
+  }
+  /* footer section css  */
+
+  .footer-header {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    gap: 8px;
+  }
+  .main-footer {
+    padding: 0 40px;
+  }
+  .footer-content {
+    width: 41%;
+  }
+  .footer-card {
+    width: 26%;
+    padding: 21px;
+  }
+  .footer-card p {
+    font-size: 14px;
+  }
+  .card-footer-lower h5 {
+    font-size: 16px;
+  }
+  .footer-content h1 {
+    font-size: 60px;
+  }
+  .footer-location {
+    padding-top: 23px;
+  }
+
+  .footer-logos {
+    padding-left: 6px;
+    gap: 9px;
+  }
+
+  .footer-social-logo {
+    width: 22px;
+  }
+  .footer-location p {
+    font-size: 17px;
+    padding-right: 11px;
+  }
+
+  .footer-footer {
+    padding: 24px 0;
+  }
+
+  .footer-footer h5 {
+    font-size: 17px;
+  }
+  .up-arrow-function {
+    gap: 19px;
+  }
+
+  .up-arrow-img {
+    width: 26px;
+    height: 26px;
+    /* padding: 2px; */
+  }
+  .up-arrow-img img {
+    padding: 5px;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import scrollDown from "../assets/scrollDown.png";
-import Person from "../assets/Person.png";
+import portfolio from "../assets/portfolio.png";
 import insta from "../assets/insta.png";
 import facebook from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";

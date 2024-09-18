@@ -16,7 +16,7 @@ const Pricing = () => {
               </h3>
             </div>
             <button className="pricing-button">
-              <p style={{ fontSize: "20px" }}>Contact for Custom Project</p>
+              <p>Contact for Custom Project</p>
               <div className="white-arrow">
                 <img src={whiteArrow} alt="" />
               </div>
